@@ -84,7 +84,7 @@ for train_name, train in training_data.items():
     print("Test mean absolute error:", test_scores[1])
 
     # Test models on test data
-    print(f"{'*'*50} \nTesting on test datasets\n{'*'*50}")
+    print(f"{'*'*36} \nTesting on test datasets\n{'*'*36}")
     for test_name, test in test_data.items():
         print(f"Testing on {test_name}")
 
